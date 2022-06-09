@@ -21,7 +21,7 @@
 - name: add deny user
   lineinfile:
     path: /etc/ssh/sshd_config
-    line: "DenyUser choong"
+    line: "DenyUser vaughncruz"
   register: ssh_config
 
 - name: create ftp dir
