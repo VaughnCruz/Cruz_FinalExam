@@ -1,0 +1,5 @@
+---
+- hosts: ubuntu
+  remote_user: choong
+  roles:
+    - roles/ubuntu-motd
